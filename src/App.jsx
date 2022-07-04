@@ -1,8 +1,12 @@
+import Header from "./components/Header";
+import GlobalStyle from "./styles/GlobalStyle";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Chuva</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+    </>
   );
 }
 
