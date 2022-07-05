@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <StyledNav>
       <h1>SLACA 2019</h1>
-      <img src={sideMenuImg} />
+      <img src={sideMenuImg} alt="SLACA 2019" />
       <ul>
         <li>Apresentação</li>
         <li>Comitês</li>

@@ -6,19 +6,6 @@ const StyledHeader = styled.header`
   display: flex;
   height: 68px;
 
-  h1 {
-    align-items: center;
-    background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
-    color: #fff;
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-size: 2.2rem;
-    height: 100%;
-    justify-content: center;
-
-    width: 220px;
-  }
-
   section {
     align-items: center;
     display: flex;

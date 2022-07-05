@@ -19,7 +19,7 @@ export default createGlobalStyle`
         display: flex;
         flex-basis: 1;
 
-        div {
+        .content-wrapper {
             flex-grow: 1;
         }
     }

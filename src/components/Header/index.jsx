@@ -25,7 +25,7 @@ const Header = () => {
             <p>Bem vindo!</p>
             <p>alguem12@galoascience.com</p>
           </div>
-          <img src={profilePic} />
+          <img src={profilePic} alt="Foto de perfil" />
           <span>2</span>
         </div>
       </section>
