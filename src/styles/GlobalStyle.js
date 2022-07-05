@@ -14,8 +14,14 @@ export default createGlobalStyle`
     html {
         font-size: 62.5%;
     }
-    body {
-        background: #E5E5E5;
+
+    .app {
+        display: flex;
+        flex-basis: 1;
+
+        div {
+            flex-grow: 1;
+        }
     }
     
 `;

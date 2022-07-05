@@ -14,7 +14,8 @@ const StyledHeader = styled.header`
     font-family: "Roboto", sans-serif;
     font-size: 2.2rem;
     height: 100%;
-    padding: 0 22px;
+    justify-content: center;
+
     width: 220px;
   }
 

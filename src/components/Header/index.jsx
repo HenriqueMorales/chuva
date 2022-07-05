@@ -1,13 +1,12 @@
 import React from "react";
-import StyledFooter from "./styles";
+import StyledHeader from "./styles";
 import languageImage from "../../assets/language-image.svg";
 import dropdown from "../../assets/dropdown.svg";
 import profilePic from "../../assets/profile-pic.png";
 
-const Footer = () => {
+const Header = () => {
   return (
-    <StyledFooter>
-      <h1>SLACA 2019</h1>
+    <StyledHeader>
       <section>
         <div className="text">
           <p>Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
@@ -30,8 +29,8 @@ const Footer = () => {
           <span>2</span>
         </div>
       </section>
-    </StyledFooter>
+    </StyledHeader>
   );
 };
 
-export default Footer;
+export default Header;
