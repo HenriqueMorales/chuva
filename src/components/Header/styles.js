@@ -45,6 +45,7 @@ const StyledHeader = styled.header`
       align-items: center;
       display: flex;
       text-align: right;
+      position: relative;
 
       img {
         border-radius: 50%;
@@ -61,8 +62,8 @@ const StyledHeader = styled.header`
         height: 12px;
         justify-content: center;
         position: absolute;
-        right: 30px;
-        top: 17px;
+        right: 0;
+        top: 0;
         width: 12px;
       }
     }

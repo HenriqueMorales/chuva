@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledAside = styled.aside`
-  width: 242px;
+  max-width: 242px;
 
   .buttons {
     display: flex;
@@ -15,7 +15,7 @@ const StyledAside = styled.aside`
       color: #fff;
       font-family: "Roboto", sans-serif;
       font-size: 1.6rem;
-      padding: 6px 12px;
+      padding: 4px 12px;
     }
 
     .download-button {
@@ -28,7 +28,7 @@ const StyledAside = styled.aside`
   .separated-text {
     color: var(--orange);
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 500;
     padding: 12px 0;
     text-align: right;
@@ -37,14 +37,6 @@ const StyledAside = styled.aside`
   .details {
     border: 1px solid hsla(0, 0%, 93%, 1);
     border-radius: 4px;
-
-    h4 {
-      background: var(--light-background);
-      font-family: "Roboto", sans-serif;
-      font-size: 2rem;
-      font-weight: 500;
-      padding: 1rem 1.5rem;
-    }
 
     .details-info {
       color: hsla(0, 0%, 36%, 1);

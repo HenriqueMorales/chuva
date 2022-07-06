@@ -3,6 +3,7 @@ import StyledAside from "./styles";
 import downloadImg from "../../../assets/download.svg";
 import starImg from "../../../assets/star.svg";
 import doiImg from "../../../assets/doi.svg";
+import H4 from "../../H4";
 
 const Aside = () => {
   return (
@@ -23,7 +24,7 @@ const Aside = () => {
       <p className="separated-text">COMO CITAR ESSE TRABALHO?</p>
 
       <div className="details">
-        <h4>Detalhes</h4>
+        <H4>Detalhes</H4>
         <div className="details-info">
           <p>
             Tipo de Apresentação: <strong>Pôster</strong>

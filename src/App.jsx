@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Summary from "./components/Summary";
 import VideoSection from "./components/VideoSection";
 import GlobalStyle from "./styles/GlobalStyle";
 
@@ -8,9 +9,12 @@ function App() {
     <div className="app">
       <GlobalStyle />
       <Nav />
-      <div className="content-wrapper">
+      <div className="header-content-wrapper">
         <Header />
-        <VideoSection />
+        <div className="content">
+          <VideoSection />
+          <Summary />
+        </div>
       </div>
     </div>
   );

@@ -19,8 +19,15 @@ export default createGlobalStyle`
         display: flex;
         flex-basis: 1;
 
-        .content-wrapper {
+        .header-content-wrapper {
             flex-grow: 1;
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                padding: 20px 44px;
+            }
         }
     }
     

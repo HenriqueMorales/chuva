@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const StyledNav = styled.nav`
   box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
-  height: 100vh;
+  height: 100%;
+  flex-shrink: 0;
   width: 202px;
 
   h1 {
