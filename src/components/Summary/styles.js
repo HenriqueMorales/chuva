@@ -3,6 +3,7 @@ import styled from "styled-components";
 const StyledSummary = styled.section`
   border: 1px solid hsla(0, 0%, 93%, 1);
   border-radius: 4px;
+  cursor: pointer;
 
   .text {
     padding: 1.5rem;

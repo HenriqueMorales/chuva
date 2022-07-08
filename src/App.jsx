@@ -1,3 +1,4 @@
+import Discussions from "./components/Discussions";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Summary from "./components/Summary";
@@ -14,6 +15,7 @@ function App() {
         <div className="content">
           <VideoSection />
           <Summary />
+          <Discussions />
         </div>
       </div>
     </div>
