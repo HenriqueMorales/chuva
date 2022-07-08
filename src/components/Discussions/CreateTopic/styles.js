@@ -30,15 +30,8 @@ const StyledCreateTopic = styled.div`
 
   button {
     align-items: center;
-    background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
-    border: none;
     border-radius: 4px;
-    color: #fff;
-    cursor: pointer;
     display: flex;
-    font-family: "Quicksand", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
     gap: 6px;
     padding: 6px 12px;
     position: absolute;

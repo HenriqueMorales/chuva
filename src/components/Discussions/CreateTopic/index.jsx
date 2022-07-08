@@ -4,6 +4,7 @@ import icon1 from "../../../assets/icon1.svg";
 import icon2 from "../../../assets/icon2.svg";
 import icon3 from "../../../assets/icon3.svg";
 import iconCreate from "../../../assets/icon-create.svg";
+import Button from "../Button";
 
 const CreateTopic = () => {
   return (
@@ -21,10 +22,10 @@ const CreateTopic = () => {
         curiosidade? Deixe seus questionamentos ou sugestões para o autor!
       </p>
 
-      <button>
+      <Button>
         <img src={iconCreate} alt="Create" />
         criar tópico
-      </button>
+      </Button>
     </StyledCreateTopic>
   );
 };
