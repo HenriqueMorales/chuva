@@ -4,7 +4,11 @@ import bShape from "../../../assets/b-shape.svg";
 import iShape from "../../../assets/i-shape.svg";
 import Button from "../Button";
 
-const SubmitTopic = () => {
+const SubmitTopic = (props) => {
+  const handleClick = () => {
+    props.setShowSubmitTopic(false);
+    props.setShowSuccess(true);
+  };
   return (
     <StyledSubmitTopic>
       <p>
@@ -29,7 +33,10 @@ const SubmitTopic = () => {
             <img src={bShape} alt="B shape" />
             <img src={iShape} alt="I shape" />
           </div>
-          <Button>Enviar</Button>
+
+          <div onClick={handleClick}>
+            <Button>Enviar</Button>
+          </div>
         </div>
       </form>
     </StyledSubmitTopic>

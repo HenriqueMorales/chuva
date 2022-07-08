@@ -28,14 +28,17 @@ const StyledCreateTopic = styled.div`
     max-width: 620px;
   }
 
-  button {
-    align-items: center;
-    border-radius: 4px;
-    display: flex;
-    gap: 6px;
-    padding: 6px 12px;
-    position: absolute;
+  .button-div {
     bottom: -15px;
+    position: absolute;
+
+    button {
+      align-items: center;
+      border-radius: 4px;
+      display: flex;
+      gap: 6px;
+      padding: 6px 12px;
+    }
   }
 `;
 

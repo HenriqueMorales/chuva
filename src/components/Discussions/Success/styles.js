@@ -35,6 +35,39 @@ const StyledSuccess = styled.div`
       position: absolute;
     }
   }
+
+  .topic-container {
+    background: hsla(0, 0%, 91%, 1);
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    position: relative;
+
+    .center-content {
+      display: grid;
+      left: calc(50% - 135px);
+      place-items: center;
+      position: absolute;
+      top: calc(50% + -45px);
+
+      p {
+        color: hsla(0, 0%, 44%, 1);
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 8px 0;
+      }
+
+      .edit {
+        color: var(--orange);
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-decoration: underline;
+      }
+    }
+    .blur {
+      filter: blur(3px);
+    }
+  }
 `;
 
 export default StyledSuccess;

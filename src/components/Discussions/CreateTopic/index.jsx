@@ -6,7 +6,11 @@ import icon3 from "../../../assets/icon3.svg";
 import iconCreate from "../../../assets/icon-create.svg";
 import Button from "../Button";
 
-const CreateTopic = () => {
+const CreateTopic = (props) => {
+  const handleClick = () => {
+    props.setShowCreateTopic(false);
+    props.setShowSubmitTopic(true);
+  };
   return (
     <StyledCreateTopic>
       <h6>Compartilhe suas ideias ou dúvidas com os autores!</h6>
@@ -22,10 +26,12 @@ const CreateTopic = () => {
         curiosidade? Deixe seus questionamentos ou sugestões para o autor!
       </p>
 
-      <Button>
-        <img src={iconCreate} alt="Create" />
-        criar tópico
-      </Button>
+      <div className="button-div" onClick={handleClick}>
+        <Button>
+          <img src={iconCreate} alt="Create" />
+          criar tópico
+        </Button>
+      </div>
     </StyledCreateTopic>
   );
 };

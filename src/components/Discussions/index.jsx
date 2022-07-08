@@ -10,14 +10,38 @@ import Topic from "./Topic";
 const Discussions = () => {
   const [showAnswers, setShowAnswers] = useState(false);
 
+  const [showCreateTopic, setShowCreateTopic] = useState(true);
+  const [showSubmitTopic, setShowSubmitTopic] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  console.log(showCreateTopic);
   return (
     <StyledDiscussions>
       <H4>Discussões</H4>
       <div className="create-topic-wrapper">
-        <CreateTopic />
-        <SubmitTopic />
-        <Success />
+        {showCreateTopic && (
+          <CreateTopic
+            setShowCreateTopic={setShowCreateTopic}
+            setShowSubmitTopic={setShowSubmitTopic}
+          />
+        )}
+
+        {showSubmitTopic && (
+          <SubmitTopic
+            setShowSubmitTopic={setShowSubmitTopic}
+            setShowSuccess={setShowSuccess}
+          />
+        )}
+
+        {showSuccess && (
+          <Success
+            setShowSubmitTopic={setShowSubmitTopic}
+            setShowSuccess={setShowSuccess}
+          />
+        )}
+
         <Topic />
+
         <div
           className="answers-div"
           onClick={() => setShowAnswers(!showAnswers)}

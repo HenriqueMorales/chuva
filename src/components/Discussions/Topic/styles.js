@@ -21,6 +21,7 @@ const StyledTopic = styled.div`
   }
 
   .message {
+    color: hsla(0, 0%, 30%, 1);
     font-family: "Quicksand", sans-serif;
     font-size: 1.4rem;
     padding: 1rem 0 1.4rem 0;
