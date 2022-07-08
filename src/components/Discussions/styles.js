@@ -9,6 +9,10 @@ const StyledDiscussions = styled.section`
     flex-direction: column;
     gap: 1.6rem;
     padding: 1.6rem;
+
+    .answers-div {
+      cursor: pointer;
+    }
   }
 `;
 
