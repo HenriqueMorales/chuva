@@ -2,6 +2,8 @@
 
 Você pode acessar o site aqui: <https://henrique-morales-chuva.netlify.app/>
 
+![Screenshot](https://user-images.githubusercontent.com/62220657/177954093-0e62d147-1d1c-4ebc-9932-9cf221b3d902.png)
+
 ## Tecnologias Usadas
 
 * [ReactJS](https://pt-br.reactjs.org/)
