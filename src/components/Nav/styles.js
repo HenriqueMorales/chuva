@@ -1,10 +1,18 @@
 import styled from "styled-components";
 
 const StyledNav = styled.nav`
+  background: #fff;
   box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
   height: 100%;
   flex-shrink: 0;
   width: 202px;
+
+  @media (max-width: 1000px) {
+    left: ${({ showNavMobile }) => (showNavMobile ? 0 : "-100%")};
+    position: absolute;
+    transition: 0.4s;
+    z-index: 100;
+  }
 
   h1 {
     align-items: center;

@@ -29,6 +29,16 @@ export default createGlobalStyle`
                 padding: 20px 44px;
             }
         }
+
+        .modal {
+      background-color: rgba(0, 0, 0, 0.2);
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      position: absolute;
+      z-index: 10;
+    }
     }
     
 `;

@@ -25,7 +25,7 @@ const StyledCreateTopic = styled.div`
   p {
     font-family: "Quicksand", sans-serif;
     font-size: 1.4rem;
-    width: 620px;
+    max-width: 620px;
   }
 
   button {

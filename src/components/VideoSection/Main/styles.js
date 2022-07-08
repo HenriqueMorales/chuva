@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledMain = styled.main`
   font-family: "Roboto", sans-serif;
-  max-width: 1000px;
+  max-width: 800px;
 
   .video {
     color: #fff;
@@ -21,7 +21,8 @@ const StyledMain = styled.main`
       justify-content: space-between;
       left: 0;
       top: 0;
-      padding: 32px 32px 60px 32px;
+      padding: min(32px, 2.4vw);
+      padding-bottom: min(60px, 8vw);
       position: absolute;
       width: 100%;
 

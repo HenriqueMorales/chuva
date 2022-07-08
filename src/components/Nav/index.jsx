@@ -2,9 +2,9 @@ import React from "react";
 import StyledNav from "./styles";
 import sideMenuImg from "../../assets/side-menu-img.png";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
-    <StyledNav>
+    <StyledNav showNavMobile={props.showNavMobile}>
       <h1>SLACA 2019</h1>
       <img src={sideMenuImg} alt="SLACA 2019" />
       <ul>
